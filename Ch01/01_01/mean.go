@@ -11,6 +11,7 @@ func main() {
 
 func mean(nums []int) float64 {
 	s := sum(nums)
+	fmt.Println("total of number passed in: ", nums)
 	return float64(s) / float64(len(nums))
 }
 
